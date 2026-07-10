@@ -366,3 +366,34 @@ header .header-container {
 
 }
 
+footer{
+    background-color: #0D1B2A;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw 2vw;
+}
+footer .left{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+footer .left p{
+    font-size: 0.8rem;
+    color: #6b7280;
+}
+footer .left img{
+    height: 3vh;
+}
+footer .right{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    
+}
+footer .right h2{
+   font-size: 0.9rem;
+   font-weight: 400;
+   color: #6b7280;
+}
