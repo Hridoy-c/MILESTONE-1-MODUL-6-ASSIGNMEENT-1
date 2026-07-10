@@ -1,0 +1,1 @@
+Act like a professional senior web developer. You can make me an FAQ section using HTML and CSS
