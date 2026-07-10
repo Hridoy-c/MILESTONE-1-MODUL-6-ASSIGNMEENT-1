@@ -157,3 +157,100 @@ header .header-container {
   color: #555;
   line-height: 1.6;
 }
+.pricing {
+  height: 100vh;
+  width: 100%;
+}
+.pricing .top-text {
+  text-align: center;
+  padding-top: 80px;
+}
+.pricing .top-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.pricing .top-text p {
+  color: #555;
+}
+.pricing .main-pricing-box {
+  height: 80%;
+  width: 70%;
+  margin: 2vw auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.pricing .main-pricing-box .box {
+  height: 73%;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1.5vw 1.5vw;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #888888;
+}
+
+.main-pricing-box .color-box {
+  background-color: #0d1b2a;
+}
+.main-pricing-box .color-box h3 {
+  color: rgb(87, 87, 190);
+}
+.main-pricing-box .color-box h1 {
+  color: white;
+}
+.main-pricing-box .color-box h4{
+  color: rgb(105, 105, 105);
+}
+.main-pricing-box .color-box ul{
+  color: rgb(179, 179, 179);
+}
+.main-pricing-box .color-box button {
+  background-color: #2661e2;
+  color: white;
+  border: none;
+}
+
+.pricing .main-pricing-box .box h3 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.pricing .main-pricing-box .box h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.pricing .main-pricing-box .box h4 {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.pricing .main-pricing-box .box hr {
+}
+
+.main-pricing-box .box ul {
+  padding-top: 0.5vw;
+  font-size: 0.9rem;
+  margin: 10px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-pricing-box .box hr {
+  margin: 1vw 0;
+  background-color: rgb(83, 83, 83);
+  height: 0.8px;
+  border: none;
+}
+.main-pricing-box .box button {
+  font-weight: 700;
+  margin-top: 1vw;
+  padding: 1vw;
+  border-radius: 5px;
+}
+.main-pricing-box .color-box-1 button {
+  
+  border: 1px solid blue;
+  color: #2563eb;
+}
